@@ -27,6 +27,17 @@ Before creating, importing, moving, or editing any knowledge-base note:
 - Do not modify `.obsidian`, rename, move, or delete user files unless the user explicitly requests it.
 - Preserve imported article meaning and attachment paths. Never overwrite unrelated or pre-existing user changes.
 
+## AI 内容生成规范
+
+- 内容以核心、准确、精炼为第一目标，用尽可能少的文字讲清概念、机制、边界和关键差异。
+- 不套用固定文章模板。标题只在能组织独立信息时使用，不为满足格式机械添加“实践要点”“验证清单”“优势与限制”“适用场景”“面试题”等章节。
+- 禁止重复、空泛和不可操作的表述，例如“结合实际验证”“从多个角度理解”“如何说明某主题的工程价值”。每段都应提供该主题独有的信息。
+- 同一结论只保留一处完整解释；其他笔记通过语义双链引用，避免换一种措辞重复正文。
+- 内容短、强相关且需要连续理解的主题应合并；只有具备独立学习目标、足够知识密度或明确检索价值时才拆成单独笔记。
+- 示例只在能帮助理解机制、API 或易错边界时添加，保持最小、自洽、可运行；不为每篇笔记强行增加示例。
+- 生产注意事项必须具体说明风险、触发条件与处理方式；面试题必须检验该主题的核心机制，不能使用通用问法凑数。
+- 扩充目录前先检查已有内容，优先精炼、合并和补缺，不以文件数量或篇幅作为完整性的衡量标准。
+
 ## Completion Requirements
 
 After changing Markdown files or their locations, run from the Vault root:
