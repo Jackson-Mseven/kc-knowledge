@@ -1,1 +1,16 @@
 .DS_Store
+.obsidian/*
+!.obsidian/app.json
+!.obsidian/appearance.json
+!.obsidian/core-plugins.json
+!.obsidian/graph.json
+!.obsidian/themes/
+.obsidian/themes/*
+!.obsidian/themes/ITS Theme/
+!.obsidian/themes/ITS Theme/**
+!.obsidian/themes/Minimal/
+!.obsidian/themes/Minimal/**
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/workspaces.json
+.obsidian/plugins/
